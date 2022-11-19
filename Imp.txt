@@ -1,0 +1,42 @@
+*****************************************************************JAVA IMP POINTS****************************************************************************
+
+1.  a non-static Method can call another non-static method Directly(WITHOUT CREATING ANY OBJECT)
+2.  any method can call in any method
+3.  There should be only one public class
+4.  Recursion is not possible(a method cannot call itself)
+5.  We cannot call a method of One class in another class Directly(Without creating an Object)
+
+*Constructor :-
+-------------
+1.it is a special method which has the same name as the class name
+2.it does not have any return type not even void 
+3.it gets called automatically whenever you create an Object
+4.it is used to initialize the values
+
+*this KeyWord:-
+--------------
+1.this keyword refers to current Object.
+2.in constructor Overloading Concept this() keyword is used.
+
+*String:-
+---------
+1.class-java.lang package.
+2.String is immutable(Not changeble).
+3.String is Array of Characters.
+4.lot of useful methods
+5. string is Thread Safe
+6.it is a special class we can access this without creating any Objects
+
+*StringBuffer is similar to String but it is not ThreadSafe
+*Method Overloading means writing already existing method with different parameters
+
+Static Block :-
+----------------
+1.In simpler language whenever we use a static keyword and associate it to a block then that 
+block is referred to as a static block. Unlike C++, Java supports a special block, called a
+static block (also called static clause) that can be used for static initialization of a class.
+This code inside the static block is executed only once: the first time the class is loaded into memory. 
+
+
+
+
